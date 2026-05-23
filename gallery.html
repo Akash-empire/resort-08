@@ -243,7 +243,7 @@
             <div class="sigma_header-top-inner">
               <ul class="sigma_header-top-links">
                 <li class="menu-item"> <a href="tel:+123456789"> <i class="fal fa-phone"></i> +91 94440 07890</a> </li>
-                <li class="menu-item"> <a href="mailto:info@example.com"> <i class="fal fa-envelope"></i> sales@bougainvillechennai.com  </a> </li>
+                <li class="menu-item"> <a href="mailto:sales@bougainvillechennai.com"  style="text-transform: lowercase;"> <i class="fal fa-envelope"></i> sales@bougainvillechennai.com  </a> </li>
               </ul>
               <ul class="sigma_header-top-links">
                 <li class="d-flex align-items-center">
@@ -626,8 +626,8 @@
         <div class="d-flex align-items-start">
           <i class="far fa-map-marker custom-primary me-3 mt-1"></i>
           <span>
-            1, Casuarina Drive,<br>
-            Kovalam 603112
+            Phillip Thottam, <br>
+Kovalam, Chennai.
           </span>
         </div>
       </div>
@@ -691,12 +691,30 @@
   <!-- partial -->
 
   <!-- ── WhatsApp Float Button (change WA_PHONE in mht_improvements.py) ───── -->
-  <a class="mht-whatsapp-btn mht-wa-disabled"
-     href="#"
-     title="WhatsApp — add your number to activate"
-     aria-label="WhatsApp not yet configured">
-    <i class="fab fa-whatsapp"></i>
-  </a>
+  <script>
+        (function (w, d, s, u) {
+            w.gbwawc = {
+                url: u,
+                options: {
+                    waId: "919444007890",
+                    siteName: "Bougainville",
+                    siteTag: "Available",
+                    siteLogo: "https://honeyglow.in//assets/img/wb.png",
+                    widgetPosition: "RIGHT",
+                    triggerMessage: "",
+                    welcomeMessage: "Welcome to Bougainville",
+                    brandColor: "#25D366",
+                    messageText: "",
+                    replyOptions: ['', '', ''],
+                },
+            };
+            var h = d.getElementsByTagName(s)[0],
+                j = d.createElement(s);
+            j.async = true;
+            j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+            h.parentNode.insertBefore(j, h);
+        })(window, document, "script", "https://waw.gallabox.com");
+    </script>
  
 
   <!-- Back To Top Start -->
