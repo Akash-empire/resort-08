@@ -324,7 +324,7 @@
 
 /* ── Headings → Lora ── */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lora', serif !important;
+  font-family: 'Poppins', serif !important;
 }
 
 /* ── Section titles & widget titles → Lora ── */
@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 .sigma_recent-post-body h6 a,
 .sigma_cta-content h4,
 .sigma_testimonial-content p {
-  font-family: 'Lora', serif !important;
+  font-family: 'Poppins', serif !important;
 }
 
 /* ── Body / meta / UI text → Poppins ── */
@@ -477,7 +477,7 @@ nav,
 
 /* God name */
 .kr-gods-name {
-  font-family: 'Lora', serif;
+  font-family: 'Poppins', serif;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 3px;
@@ -488,7 +488,7 @@ nav,
   transition: color 0.2s ease;
 }
 .kr-gods-name:hover {
-  color: var(--mht-accent);
+  color: #fff;
 }
 
 /* Separator icon */
@@ -630,4 +630,9 @@ nav,
   .kr-about-counter   { padding: 20px 26px; min-width: 120px; }
   .kr-about-counter b { font-size: 48px; }
   .kr-about-counter > span { font-size: 22px; }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif !important;
 }

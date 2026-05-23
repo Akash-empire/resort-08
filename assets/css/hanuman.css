@@ -1345,3 +1345,8 @@ button.sigma_btn-custom:hover, button.sigma_btn-custom:focus {
   .h3-layer { opacity: 1; filter: none; }
   .h3-content { opacity: 1; filter: none; transform: scale(1); }
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif !important;
+}
